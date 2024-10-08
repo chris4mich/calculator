@@ -11,13 +11,14 @@ body {
   background: linear-gradient(to right, #FF9300, #FF4848);
 }
 
-.calculator-grid {
+.calculator-grid {  
   display: grid;
   justify-content: center;
   align-content: center;
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  box-shadow: #242222 0px 0px 200px;
 }
 
 .calculator-grid > button {
@@ -27,6 +28,7 @@ body {
   border: 1px solid white;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
+  box-shadow: #3e3737 0px 0px 80px;
 }
 
 .calculator-grid > button:hover {
@@ -47,6 +49,7 @@ body {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
+  box-shadow: #3e3737 0px 0px 80px;
 }
 
 .output .previous-operand {
